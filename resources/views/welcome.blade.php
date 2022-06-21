@@ -127,6 +127,11 @@
                     </div>
                 </div>
             </div>
+
         </div>
+        <x-section title="This is my custom html tags title">
+            <x-slot name="info">Title for Information lsot</x-slot>
+            <p>This is my slot</p>
+        </x-section>
     </body>
 </html>
